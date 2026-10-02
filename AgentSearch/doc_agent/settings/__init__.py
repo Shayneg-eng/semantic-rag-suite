@@ -1,0 +1,31 @@
+"""
+Settings module - Configuration and prompts
+"""
+
+from .config import (
+    DEEPSEEK_API_KEY,
+    DEEPSEEK_BASE_URL,
+    DEEPSEEK_MODEL,
+    PREVIEW_LENGTH,
+    MAX_SNIPPET_LENGTH,
+    FUZZY_THRESHOLD,
+    MAX_ITERATIONS,
+    HISTORY_LIMIT,
+    DOCUMENTS_FOLDER,
+    FOCUS_DOCS_FILE,
+)
+from .llm_prompts import SYSTEM_PROMPT
+
+__all__ = [
+    "DEEPSEEK_API_KEY",
+    "DEEPSEEK_BASE_URL",
+    "DEEPSEEK_MODEL",
+    "PREVIEW_LENGTH",
+    "MAX_SNIPPET_LENGTH",
+    "FUZZY_THRESHOLD",
+    "MAX_ITERATIONS",
+    "HISTORY_LIMIT",
+    "DOCUMENTS_FOLDER",
+    "FOCUS_DOCS_FILE",
+    "SYSTEM_PROMPT",
+]

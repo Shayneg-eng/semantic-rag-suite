@@ -1,0 +1,38 @@
+[
+  {
+    "input": "Puppies are cute and loyal animals",
+    "reconstructed": "Dogs are loyal and friendly animals",
+    "similarity": 0.7055424451828003,
+    "embedding_stats": {
+      "dimension": 384,
+      "min": -0.16182257235050201,
+      "max": 0.1404714435338974,
+      "mean": -0.000973961956333369,
+      "l2_norm": 1.0
+    }
+  },
+  {
+    "input": "C++ is a compiled programming language",
+    "reconstructed": "Python is a programming language",
+    "similarity": 0.532588541507721,
+    "embedding_stats": {
+      "dimension": 384,
+      "min": -0.14447344839572906,
+      "max": 0.17009098827838898,
+      "mean": -0.0008747419924475253,
+      "l2_norm": 0.9999999403953552
+    }
+  },
+  {
+    "input": "Deep learning is part of AI",
+    "reconstructed": "Artificial intelligence is the future",
+    "similarity": 0.6059637069702148,
+    "embedding_stats": {
+      "dimension": 384,
+      "min": -0.1512753665447235,
+      "max": 0.13576015830039978,
+      "mean": 0.0013207049341872334,
+      "l2_norm": 1.0
+    }
+  }
+]

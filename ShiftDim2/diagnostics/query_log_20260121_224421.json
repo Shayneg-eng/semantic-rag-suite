@@ -1,0 +1,1602 @@
+[
+  {
+    "query": "How do I implement secure third-party access to my API using tokens?",
+    "target_doc": "DOC_1",
+    "rag_rank": 1,
+    "fp_rank": 1,
+    "rag_top_doc": "DOC_1",
+    "fp_top_doc": "DOC_1",
+    "rag_top_score": 0.7402444232868143,
+    "fp_top_score": 0.7722926829077444,
+    "rag_gap": 0.0776239070485738,
+    "fp_gap": 0.12000922786423929,
+    "shift_details": {
+      "shift_3_certainty": {
+        "alignment": 0.0674602080471078,
+        "contribution": 0.04993704280063982
+      },
+      "shift_5_passive": {
+        "alignment": -0.03770170757221623,
+        "contribution": -0.02790847877872332
+      },
+      "shift_2_abstraction": {
+        "alignment": -0.06662155240047397,
+        "contribution": -0.049316232635161134
+      },
+      "shift_1_entity": {
+        "alignment": 0.14256749418483008,
+        "contribution": 0.10553479251229579
+      },
+      "shift_9_perspective": {
+        "alignment": -0.00033820312237632096,
+        "contribution": -0.0002503529752772596
+      },
+      "shift_10_temporal": {
+        "alignment": -0.03868350186648205,
+        "contribution": -0.028635246529868406
+      },
+      "shift_7_density": {
+        "alignment": 0.1387081394916668,
+        "contribution": 0.10267792672319588
+      },
+      "shift_6_negation": {
+        "alignment": 0.22658468562988462,
+        "contribution": 0.16772804993971807
+      },
+      "shift_11_modality": {
+        "alignment": -0.164355755532195,
+        "contribution": -0.12166343146779833
+      },
+      "shift_12_agent_flip": {
+        "alignment": 0.16173845135303247,
+        "contribution": 0.11972598664512799
+      },
+      "shift_15_contrast": {
+        "alignment": 0.036149969164012107,
+        "contribution": 0.02675981307565026
+      },
+      "shift_14_causality_invert": {
+        "alignment": -0.019090051159071475,
+        "contribution": -0.014131303910762644
+      },
+      "shift_16_exemplification": {
+        "alignment": -0.06135146023010149,
+        "contribution": -0.045415076295835397
+      }
+    },
+    "all_rag_scores": {
+      "DOC_1": 0.7402444232868143,
+      "DOC_6": 0.6626205162382405,
+      "DOC_25": 0.6003557828376253,
+      "DOC_14": 0.5996779535904867,
+      "DOC_15": 0.5545208766555509
+    },
+    "all_fp_scores": {
+      "DOC_1": 0.7722926829077444,
+      "DOC_6": 0.6522834550435052,
+      "DOC_14": 0.6362795153322213,
+      "DOC_13": 0.6209289306616934,
+      "DOC_25": 0.6175721017693868
+    }
+  },
+  {
+    "query": "What are the best practices for managing access token expiration and refresh in OAuth2?",
+    "target_doc": "DOC_1",
+    "rag_rank": 1,
+    "fp_rank": 1,
+    "rag_top_doc": "DOC_1",
+    "fp_top_doc": "DOC_1",
+    "rag_top_score": 0.7888105628034882,
+    "fp_top_score": 0.8675328650073219,
+    "rag_gap": 0.10540329701469542,
+    "fp_gap": 0.12436881066467642,
+    "shift_details": {
+      "shift_2_abstraction": {
+        "alignment": 0.12878377987585304,
+        "contribution": 0.10158600588383217
+      },
+      "shift_5_passive": {
+        "alignment": -0.013457561356943506,
+        "contribution": -0.010615466547933081
+      },
+      "shift_3_certainty": {
+        "alignment": 0.24859453743408083,
+        "contribution": 0.1960939969832501
+      },
+      "shift_1_entity": {
+        "alignment": 0.11989239926577107,
+        "contribution": 0.09457239094069339
+      },
+      "shift_10_temporal": {
+        "alignment": -0.03868350186648205,
+        "contribution": -0.03051395487850949
+      },
+      "shift_7_density": {
+        "alignment": 0.14137555931135645,
+        "contribution": 0.111518534507049
+      },
+      "shift_6_negation": {
+        "alignment": 0.2770551608564181,
+        "contribution": 0.21854403736276212
+      },
+      "shift_9_perspective": {
+        "alignment": 0.08903665144145446,
+        "contribution": 0.0702330511336717
+      },
+      "shift_11_modality": {
+        "alignment": -0.19405099929085573,
+        "contribution": -0.1530694779631992
+      },
+      "shift_12_agent_flip": {
+        "alignment": -0.08260506822403374,
+        "contribution": -0.0651597503562206
+      },
+      "shift_15_contrast": {
+        "alignment": 0.0021804546892434827,
+        "contribution": 0.0017199656905896564
+      },
+      "shift_14_causality_invert": {
+        "alignment": 0.4173605746056409,
+        "contribution": 0.3292184297466628
+      },
+      "shift_16_exemplification": {
+        "alignment": -0.009103953617717018,
+        "contribution": -0.007181294776928213
+      }
+    },
+    "all_rag_scores": {
+      "DOC_1": 0.7888105628034882,
+      "DOC_4": 0.6834072657887927,
+      "DOC_9": 0.6388215226476135,
+      "DOC_17": 0.629442975024721,
+      "DOC_10": 0.6267641630835794
+    },
+    "all_fp_scores": {
+      "DOC_1": 0.8675328650073219,
+      "DOC_4": 0.7431640543426454,
+      "DOC_10": 0.7023754876696483,
+      "DOC_13": 0.6779497882355936,
+      "DOC_8": 0.6720846666748183
+    }
+  },
+  {
+    "query": "How do composite indexes improve database query performance?",
+    "target_doc": "DOC_2",
+    "rag_rank": 1,
+    "fp_rank": 1,
+    "rag_top_doc": "DOC_2",
+    "fp_top_doc": "DOC_2",
+    "rag_top_score": 0.7470543886981832,
+    "fp_top_score": 0.764154503426079,
+    "rag_gap": 0.11927861712507504,
+    "fp_gap": 0.10538177706199015,
+    "shift_details": {
+      "shift_1_entity": {
+        "alignment": 0.1419753299445896,
+        "contribution": 0.10606329332197825
+      },
+      "shift_5_passive": {
+        "alignment": -0.0035570237290645018,
+        "contribution": -0.0026572901875012134
+      },
+      "shift_3_certainty": {
+        "alignment": -0.23555292941411873,
+        "contribution": -0.17597084968953078
+      },
+      "shift_2_abstraction": {
+        "alignment": 0.05663776669496506,
+        "contribution": 0.04231149217553744
+      },
+      "shift_7_density": {
+        "alignment": -0.20044102739667657,
+        "contribution": -0.14974034919186
+      },
+      "shift_6_negation": {
+        "alignment": 0.12472242561641854,
+        "contribution": 0.09317443542582818
+      },
+      "shift_10_temporal": {
+        "alignment": 0.04575855394312306,
+        "contribution": 0.034184128543692634
+      },
+      "shift_9_perspective": {
+        "alignment": -0.005400547525153984,
+        "contribution": -0.004034502730039396
+      },
+      "shift_11_modality": {
+        "alignment": 0.23808297107457185,
+        "contribution": 0.1778609284155615
+      },
+      "shift_14_causality_invert": {
+        "alignment": 0.0334708295094746,
+        "contribution": 0.02500453007842166
+      },
+      "shift_12_agent_flip": {
+        "alignment": 0.0599524427154289,
+        "contribution": 0.044787735443737584
+      },
+      "shift_15_contrast": {
+        "alignment": 0.15739286667728036,
+        "contribution": 0.11758103180105033
+      },
+      "shift_16_exemplification": {
+        "alignment": -0.11819918404099135,
+        "contribution": -0.08830121917836684
+      }
+    },
+    "all_rag_scores": {
+      "DOC_2": 0.7470543886981832,
+      "DOC_19": 0.6277757715731082,
+      "DOC_4": 0.6144962520167869,
+      "DOC_18": 0.6040721735030646,
+      "DOC_24": 0.5212825204028602
+    },
+    "all_fp_scores": {
+      "DOC_2": 0.764154503426079,
+      "DOC_4": 0.6587727263640889,
+      "DOC_19": 0.6508947604207573,
+      "DOC_18": 0.6452162197588727,
+      "DOC_24": 0.5304631362104941
+    }
+  },
+  {
+    "query": "What is the difference between B-tree and hash indexes in SQL databases?",
+    "target_doc": "DOC_2",
+    "rag_rank": 1,
+    "fp_rank": 1,
+    "rag_top_doc": "DOC_2",
+    "fp_top_doc": "DOC_2",
+    "rag_top_score": 0.6734865572964459,
+    "fp_top_score": 0.6854395583280428,
+    "rag_gap": 0.04325315801643759,
+    "fp_gap": 0.02058412707955204,
+    "shift_details": {
+      "shift_1_entity": {
+        "alignment": 0.23808924470015463,
+        "contribution": 0.16034990574241823
+      },
+      "shift_2_abstraction": {
+        "alignment": 0.12746514418000116,
+        "contribution": 0.08584606112908409
+      },
+      "shift_3_certainty": {
+        "alignment": -0.14250329133106973,
+        "contribution": -0.09597405108197461
+      },
+      "shift_5_passive": {
+        "alignment": 0.04386192696084392,
+        "contribution": 0.029540418185246935
+      },
+      "shift_6_negation": {
+        "alignment": 0.09058912734489812,
+        "contribution": 0.06101055950400476
+      },
+      "shift_7_density": {
+        "alignment": -0.07151996827116897,
+        "contribution": -0.04816773720890063
+      },
+      "shift_10_temporal": {
+        "alignment": 0.014227471234169954,
+        "contribution": 0.009582010620535339
+      },
+      "shift_9_perspective": {
+        "alignment": 0.012656132502824755,
+        "contribution": 0.008523735108015096
+      },
+      "shift_11_modality": {
+        "alignment": 0.10942917504537299,
+        "contribution": 0.0736990783690984
+      },
+      "shift_12_agent_flip": {
+        "alignment": -0.09530865649807947,
+        "contribution": -0.06418909894544109
+      },
+      "shift_14_causality_invert": {
+        "alignment": 0.04043799532986676,
+        "contribution": 0.027234446258681724
+      },
+      "shift_15_contrast": {
+        "alignment": 0.035285351437171895,
+        "contribution": 0.0237642098624161
+      },
+      "shift_16_exemplification": {
+        "alignment": -0.15226604807958039,
+        "contribution": -0.1025491365142517
+      }
+    },
+    "all_rag_scores": {
+      "DOC_2": 0.6734865572964459,
+      "DOC_18": 0.6302333992800083,
+      "DOC_4": 0.6023072914987229,
+      "DOC_19": 0.57862189975459,
+      "DOC_6": 0.564333000138267
+    },
+    "all_fp_scores": {
+      "DOC_2": 0.6854395583280428,
+      "DOC_18": 0.6648554312484908,
+      "DOC_4": 0.6106737903688347,
+      "DOC_10": 0.5720948733890422,
+      "DOC_13": 0.5713976615640508
+    }
+  },
+  {
+    "query": "How do I decide between synchronous and asynchronous communication in microservices?",
+    "target_doc": "DOC_3",
+    "rag_rank": 1,
+    "fp_rank": 1,
+    "rag_top_doc": "DOC_3",
+    "fp_top_doc": "DOC_3",
+    "rag_top_score": 0.709857909654224,
+    "fp_top_score": 0.8598538260758922,
+    "rag_gap": 0.0241908121967368,
+    "fp_gap": 0.0638458946114836,
+    "shift_details": {
+      "shift_1_entity": {
+        "alignment": 0.18877903170676416,
+        "contribution": 0.13400628883391208
+      },
+      "shift_3_certainty": {
+        "alignment": 0.3148881061272975,
+        "contribution": 0.22352581279050085
+      },
+      "shift_2_abstraction": {
+        "alignment": 0.0018060861928013156,
+        "contribution": 0.0012820645694772976
+      },
+      "shift_5_passive": {
+        "alignment": 0.059996781273885656,
+        "contribution": 0.04258918974106216
+      },
+      "shift_6_negation": {
+        "alignment": 0.08955707748781706,
+        "contribution": 0.06357279982024318
+      },
+      "shift_7_density": {
+        "alignment": 0.1541444550981312,
+        "contribution": 0.10942066068074882
+      },
+      "shift_10_temporal": {
+        "alignment": 0.9529929500705807,
+        "contribution": 0.6764895834523147
+      },
+      "shift_11_modality": {
+        "alignment": -0.021004779948052468,
+        "contribution": -0.014910409186671485
+      },
+      "shift_12_agent_flip": {
+        "alignment": 0.14388408060123128,
+        "contribution": 0.10213725268810993
+      },
+      "shift_9_perspective": {
+        "alignment": -0.12462672636178748,
+        "contribution": -0.08846726746222744
+      },
+      "shift_14_causality_invert": {
+        "alignment": 0.1881876218436802,
+        "contribution": 0.13358647186475442
+      },
+      "shift_16_exemplification": {
+        "alignment": 0.22188719702153945,
+        "contribution": 0.15750838185674496
+      },
+      "shift_15_contrast": {
+        "alignment": 0.12205640345672857,
+        "contribution": 0.08664270341770594
+      }
+    },
+    "all_rag_scores": {
+      "DOC_3": 0.709857909654224,
+      "DOC_11": 0.6856670974574872,
+      "DOC_13": 0.6144221911146612,
+      "DOC_7": 0.5930965899067328,
+      "DOC_14": 0.5814330368183395
+    },
+    "all_fp_scores": {
+      "DOC_3": 0.8598538260758922,
+      "DOC_11": 0.7960079314644086,
+      "DOC_13": 0.7157887105341358,
+      "DOC_7": 0.6519438218841849,
+      "DOC_10": 0.6122301268290552
+    }
+  },
+  {
+    "query": "What are the advantages of using a service registry for discovery in a distributed system?",
+    "target_doc": "DOC_3",
+    "rag_rank": 1,
+    "fp_rank": 1,
+    "rag_top_doc": "DOC_3",
+    "fp_top_doc": "DOC_3",
+    "rag_top_score": 0.5956909399903327,
+    "fp_top_score": 0.6753932659837578,
+    "rag_gap": 0.023091981817362273,
+    "fp_gap": 0.0318411023151296,
+    "shift_details": {
+      "shift_2_abstraction": {
+        "alignment": 0.044781889812109274,
+        "contribution": 0.02667616603671888
+      },
+      "shift_1_entity": {
+        "alignment": 0.012362399604704227,
+        "contribution": 0.007364169441062379
+      },
+      "shift_5_passive": {
+        "alignment": 0.05930190616967646,
+        "contribution": 0.035325608229433085
+      },
+      "shift_6_negation": {
+        "alignment": 0.16713242328613137,
+        "contribution": 0.09955927033017777
+      },
+      "shift_3_certainty": {
+        "alignment": 0.08229807261445414,
+        "contribution": 0.04902421623509685
+      },
+      "shift_10_temporal": {
+        "alignment": 0.9529929500705807,
+        "contribution": 0.5676892662317045
+      },
+      "shift_9_perspective": {
+        "alignment": -0.03638349513684852,
+        "contribution": -0.021673318418202994
+      },
+      "shift_7_density": {
+        "alignment": 0.17610368074634847,
+        "contribution": 0.10490336711954978
+      },
+      "shift_11_modality": {
+        "alignment": -0.032847433710745076,
+        "contribution": -0.019566918663423877
+      },
+      "shift_12_agent_flip": {
+        "alignment": -0.0059383431088973135,
+        "contribution": -0.0035374171885241557
+      },
+      "shift_14_causality_invert": {
+        "alignment": -0.12257436611832849,
+        "contribution": -0.07301643937174629
+      },
+      "shift_16_exemplification": {
+        "alignment": 0.06986550033845765,
+        "contribution": 0.04161824556951075
+      },
+      "shift_15_contrast": {
+        "alignment": -0.011991044328500568,
+        "contribution": -0.007142956467510252
+      }
+    },
+    "all_rag_scores": {
+      "DOC_3": 0.5956909399903327,
+      "DOC_19": 0.5725989581729705,
+      "DOC_5": 0.5720352421060588,
+      "DOC_14": 0.5507123203026723,
+      "DOC_23": 0.5493804473151085
+    },
+    "all_fp_scores": {
+      "DOC_3": 0.6753932659837578,
+      "DOC_15": 0.6435521636686282,
+      "DOC_18": 0.5889040000296529,
+      "DOC_13": 0.5863388937112314,
+      "DOC_7": 0.5797057262395362
+    }
+  },
+  {
+    "query": "What is the cache-aside pattern and how does it handle cache misses?",
+    "target_doc": "DOC_4",
+    "rag_rank": 2,
+    "fp_rank": 5,
+    "rag_top_doc": "DOC_24",
+    "fp_top_doc": "DOC_9",
+    "rag_top_score": 0.6627312829341777,
+    "fp_top_score": 0.691386076288349,
+    "rag_gap": 0.023451466554474165,
+    "fp_gap": 0.020430878108709583,
+    "shift_details": {
+      "shift_5_passive": {
+        "alignment": 0.155551998551073,
+        "contribution": 0.09944125307122585
+      },
+      "shift_2_abstraction": {
+        "alignment": -0.003738587131114316,
+        "contribution": -0.0023900032946982826
+      },
+      "shift_1_entity": {
+        "alignment": -0.19191770355902393,
+        "contribution": -0.1226891142912272
+      },
+      "shift_6_negation": {
+        "alignment": -0.07821040437845961,
+        "contribution": -0.04999833295004402
+      },
+      "shift_3_certainty": {
+        "alignment": 0.25962701266628263,
+        "contribution": 0.16597430898451213
+      },
+      "shift_7_density": {
+        "alignment": 0.0837130272348253,
+        "contribution": 0.053516048679268235
+      },
+      "shift_9_perspective": {
+        "alignment": -0.1722960314252686,
+        "contribution": -0.11014537533249734
+      },
+      "shift_10_temporal": {
+        "alignment": -0.02711947316284768,
+        "contribution": -0.017336931823859564
+      },
+      "shift_12_agent_flip": {
+        "alignment": -0.1800178640491101,
+        "contribution": -0.11508178707438155
+      },
+      "shift_11_modality": {
+        "alignment": -0.04570760581837418,
+        "contribution": -0.029219949854726115
+      },
+      "shift_15_contrast": {
+        "alignment": 0.0892089718515541,
+        "contribution": 0.057029495144683647
+      },
+      "shift_16_exemplification": {
+        "alignment": 0.31621429383634314,
+        "contribution": 0.20214941570033507
+      },
+      "shift_14_causality_invert": {
+        "alignment": -0.11046418855579998,
+        "contribution": -0.07061752617648476
+      }
+    },
+    "all_rag_scores": {
+      "DOC_24": 0.6627312829341777,
+      "DOC_4": 0.6392798163797035,
+      "DOC_9": 0.6186024783320296,
+      "DOC_10": 0.5914523142786587,
+      "DOC_13": 0.571053796437212
+    },
+    "all_fp_scores": {
+      "DOC_9": 0.691386076288349,
+      "DOC_13": 0.6709551981796394,
+      "DOC_24": 0.6651571620490807,
+      "DOC_10": 0.659049892339743,
+      "DOC_4": 0.6381186483325555
+    }
+  },
+  {
+    "query": "How does Redis replication and sentinel ensure high availability during failure?",
+    "target_doc": "DOC_4",
+    "rag_rank": 4,
+    "fp_rank": 9,
+    "rag_top_doc": "DOC_8",
+    "fp_top_doc": "DOC_8",
+    "rag_top_score": 0.7597183411089395,
+    "fp_top_score": 0.8260701566540533,
+    "rag_gap": 0.07863727230566253,
+    "fp_gap": 0.01888287384573395,
+    "shift_details": {
+      "shift_5_passive": {
+        "alignment": 0.07336423794249249,
+        "contribution": 0.04719533195823443
+      },
+      "shift_2_abstraction": {
+        "alignment": 0.03775309468103386,
+        "contribution": 0.024286626371267037
+      },
+      "shift_3_certainty": {
+        "alignment": 0.15983871027654234,
+        "contribution": 0.10282449873180247
+      },
+      "shift_1_entity": {
+        "alignment": -0.03232170147982052,
+        "contribution": -0.020792602411965587
+      },
+      "shift_6_negation": {
+        "alignment": -0.04133637715604369,
+        "contribution": -0.026591757735689784
+      },
+      "shift_7_density": {
+        "alignment": 0.07445117054733813,
+        "contribution": 0.0478945574465729
+      },
+      "shift_10_temporal": {
+        "alignment": -0.02711947316284768,
+        "contribution": -0.01744600059031898
+      },
+      "shift_9_perspective": {
+        "alignment": -0.14634729509382363,
+        "contribution": -0.09414544970203018
+      },
+      "shift_14_causality_invert": {
+        "alignment": -0.13809970945670896,
+        "contribution": -0.088839764631019
+      },
+      "shift_11_modality": {
+        "alignment": 0.0033844765816949795,
+        "contribution": 0.0021772392143318206
+      },
+      "shift_12_agent_flip": {
+        "alignment": -0.07967538124681547,
+        "contribution": -0.05125530057014847
+      },
+      "shift_15_contrast": {
+        "alignment": -0.0704035187084095,
+        "contribution": -0.045290696525406696
+      },
+      "shift_16_exemplification": {
+        "alignment": 0.17828260974806054,
+        "contribution": 0.11468948884926176
+      }
+    },
+    "all_rag_scores": {
+      "DOC_8": 0.7597183411089395,
+      "DOC_13": 0.681081068803277,
+      "DOC_10": 0.6779860154670427,
+      "DOC_4": 0.6433016041852586,
+      "DOC_17": 0.6331478957540213
+    },
+    "all_fp_scores": {
+      "DOC_8": 0.8260701566540533,
+      "DOC_13": 0.8071872828083193,
+      "DOC_10": 0.7591634696914482,
+      "DOC_11": 0.6996798304592032,
+      "DOC_24": 0.6652941047668124
+    }
+  },
+  {
+    "query": "How can I reconstruct a request flow across distributed services using logs and correlation IDs?",
+    "target_doc": "DOC_5",
+    "rag_rank": 1,
+    "fp_rank": 2,
+    "rag_top_doc": "DOC_5",
+    "fp_top_doc": "DOC_16",
+    "rag_top_score": 0.7237646963200758,
+    "fp_top_score": 0.7436348485289066,
+    "rag_gap": 0.015212632629861722,
+    "fp_gap": 0.004481652259392788,
+    "shift_details": {
+      "shift_3_certainty": {
+        "alignment": 0.399550919649768,
+        "contribution": 0.2891808500247213
+      },
+      "shift_2_abstraction": {
+        "alignment": 0.027371721224986156,
+        "contribution": 0.019810685500159877
+      },
+      "shift_5_passive": {
+        "alignment": 0.19525732122099468,
+        "contribution": 0.1413203557977847
+      },
+      "shift_1_entity": {
+        "alignment": -0.0716822888304819,
+        "contribution": -0.051881110006921694
+      },
+      "shift_6_negation": {
+        "alignment": -0.019231449029247363,
+        "contribution": -0.013919043866448233
+      },
+      "shift_7_density": {
+        "alignment": 0.21154170854762214,
+        "contribution": 0.1531064204459997
+      },
+      "shift_10_temporal": {
+        "alignment": -0.24736327022007082,
+        "contribution": -0.1790328021515704
+      },
+      "shift_9_perspective": {
+        "alignment": -0.15869974682995866,
+        "contribution": -0.11486127407045794
+      },
+      "shift_11_modality": {
+        "alignment": -0.19125489030383921,
+        "contribution": -0.1384235376004876
+      },
+      "shift_12_agent_flip": {
+        "alignment": 0.11941709675619872,
+        "contribution": 0.08642987876917527
+      },
+      "shift_14_causality_invert": {
+        "alignment": 0.03653185851054503,
+        "contribution": 0.0264404694808926
+      },
+      "shift_15_contrast": {
+        "alignment": 0.16209054445490678,
+        "contribution": 0.11731541368376135
+      },
+      "shift_16_exemplification": {
+        "alignment": -0.24697218693557862,
+        "contribution": -0.17874974987693404
+      }
+    },
+    "all_rag_scores": {
+      "DOC_5": 0.7237646963200758,
+      "DOC_16": 0.7085520636902141,
+      "DOC_14": 0.6910857897698927,
+      "DOC_11": 0.6794279099211138,
+      "DOC_17": 0.678698509064663
+    },
+    "all_fp_scores": {
+      "DOC_16": 0.7436348485289066,
+      "DOC_5": 0.7391531962695138,
+      "DOC_9": 0.731615717913375,
+      "DOC_11": 0.7165097299990643,
+      "DOC_13": 0.7146133464808001
+    }
+  },
+  {
+    "query": "What are the differences between log levels like INFO, WARN, and ERROR in production?",
+    "target_doc": "DOC_5",
+    "rag_rank": 1,
+    "fp_rank": 1,
+    "rag_top_doc": "DOC_5",
+    "fp_top_doc": "DOC_5",
+    "rag_top_score": 0.6736554844212668,
+    "fp_top_score": 0.6879537015217878,
+    "rag_gap": 0.04376693429538403,
+    "fp_gap": 0.046167443767070604,
+    "shift_details": {
+      "shift_1_entity": {
+        "alignment": 0.0012983691011613286,
+        "contribution": 0.0008746534658004395
+      },
+      "shift_2_abstraction": {
+        "alignment": -0.00819894921454267,
+        "contribution": -0.005523267104868107
+      },
+      "shift_5_passive": {
+        "alignment": 0.08062289617264587,
+        "contribution": 0.05431205617662925
+      },
+      "shift_3_certainty": {
+        "alignment": 0.24973528985541002,
+        "contribution": 0.1682355476646317
+      },
+      "shift_6_negation": {
+        "alignment": 0.028888571973313446,
+        "contribution": 0.019460944946921098
+      },
+      "shift_7_density": {
+        "alignment": -0.036520666109225795,
+        "contribution": -0.02460234701919784
+      },
+      "shift_10_temporal": {
+        "alignment": -0.1975847403507527,
+        "contribution": -0.13310404397523654
+      },
+      "shift_9_perspective": {
+        "alignment": 0.11515764201652198,
+        "contribution": 0.07757657711745095
+      },
+      "shift_12_agent_flip": {
+        "alignment": -0.1323405210616751,
+        "contribution": -0.0891519178243656
+      },
+      "shift_14_causality_invert": {
+        "alignment": 0.07570183323603928,
+        "contribution": 0.05099695514020199
+      },
+      "shift_11_modality": {
+        "alignment": 0.4306045601212295,
+        "contribution": 0.29007912354247334
+      },
+      "shift_15_contrast": {
+        "alignment": -0.15583888022770892,
+        "contribution": -0.10498171635146503
+      },
+      "shift_16_exemplification": {
+        "alignment": -0.09189455925330467,
+        "contribution": -0.06190527382946376
+      }
+    },
+    "all_rag_scores": {
+      "DOC_5": 0.6736554844212668,
+      "DOC_23": 0.6298885501258827,
+      "DOC_4": 0.5774871614726923,
+      "DOC_27": 0.5768879379328151,
+      "DOC_11": 0.5740847069394676
+    },
+    "all_fp_scores": {
+      "DOC_5": 0.6879537015217878,
+      "DOC_11": 0.6417862577547172,
+      "DOC_13": 0.6399583981991771,
+      "DOC_23": 0.6398426630222933,
+      "DOC_18": 0.629794615441603
+    }
+  },
+  {
+    "query": "What is the principle of least privilege and how does it apply to account security?",
+    "target_doc": "DOC_6",
+    "rag_rank": 1,
+    "fp_rank": 1,
+    "rag_top_doc": "DOC_6",
+    "fp_top_doc": "DOC_6",
+    "rag_top_score": 0.6568598778709768,
+    "fp_top_score": 0.6708748487228904,
+    "rag_gap": 0.03998926170475492,
+    "fp_gap": 0.029831114819010907,
+    "shift_details": {
+      "shift_1_entity": {
+        "alignment": 0.033050608969316164,
+        "contribution": 0.021709618971146424
+      },
+      "shift_2_abstraction": {
+        "alignment": 0.003954144098722831,
+        "contribution": 0.0025973186097713223
+      },
+      "shift_3_certainty": {
+        "alignment": -0.20924082881180928,
+        "contribution": -0.137441905258947
+      },
+      "shift_6_negation": {
+        "alignment": 0.3824241786719601,
+        "contribution": 0.25119909929737233
+      },
+      "shift_5_passive": {
+        "alignment": 0.15401964040583138,
+        "contribution": 0.10116932218670616
+      },
+      "shift_7_density": {
+        "alignment": -0.09117918357048145,
+        "contribution": -0.059891947384481815
+      },
+      "shift_10_temporal": {
+        "alignment": 0.07186975944123049,
+        "contribution": 0.047208361409183136
+      },
+      "shift_9_perspective": {
+        "alignment": -0.010869769982194718,
+        "contribution": -0.0071399157829900315
+      },
+      "shift_11_modality": {
+        "alignment": -0.032311224328793735,
+        "contribution": -0.021223946866473185
+      },
+      "shift_14_causality_invert": {
+        "alignment": -0.0962420055954845,
+        "contribution": -0.06321751204150781
+      },
+      "shift_12_agent_flip": {
+        "alignment": 0.0009049854809686096,
+        "contribution": 0.0005944486525040481
+      },
+      "shift_15_contrast": {
+        "alignment": 0.09836051086565913,
+        "contribution": 0.06460907315454374
+      },
+      "shift_16_exemplification": {
+        "alignment": -0.16767421762440946,
+        "contribution": -0.11013846611088117
+      }
+    },
+    "all_rag_scores": {
+      "DOC_6": 0.6568598778709768,
+      "DOC_25": 0.6168706161662219,
+      "DOC_1": 0.5842039642198658,
+      "DOC_9": 0.5022842828144628,
+      "DOC_15": 0.49229936107500794
+    },
+    "all_fp_scores": {
+      "DOC_6": 0.6708748487228904,
+      "DOC_25": 0.6410437339038795,
+      "DOC_1": 0.6389783158868235,
+      "DOC_9": 0.5183370268752369,
+      "DOC_13": 0.5135881896065276
+    }
+  },
+  {
+    "query": "How do parameterized queries protect against SQL injection attacks?",
+    "target_doc": "DOC_6",
+    "rag_rank": 1,
+    "fp_rank": 1,
+    "rag_top_doc": "DOC_6",
+    "fp_top_doc": "DOC_6",
+    "rag_top_score": 0.6921663201293805,
+    "fp_top_score": 0.7075721199916516,
+    "rag_gap": 0.10188080682290157,
+    "fp_gap": 0.07558793000928099,
+    "shift_details": {
+      "shift_1_entity": {
+        "alignment": -0.2146841069321705,
+        "contribution": -0.14859710828550288
+      },
+      "shift_5_passive": {
+        "alignment": -0.014426774546302534,
+        "contribution": -0.009985727449050439
+      },
+      "shift_3_certainty": {
+        "alignment": -0.03479631868534552,
+        "contribution": -0.024084839858484815
+      },
+      "shift_2_abstraction": {
+        "alignment": 0.024538348554509922,
+        "contribution": 0.016984618421027237
+      },
+      "shift_10_temporal": {
+        "alignment": 0.18265931243660716,
+        "contribution": 0.12643062412660916
+      },
+      "shift_6_negation": {
+        "alignment": 0.1609361536262396,
+        "contribution": 0.11139458523125091
+      },
+      "shift_9_perspective": {
+        "alignment": -0.035880069676124456,
+        "contribution": -0.024834975793708837
+      },
+      "shift_7_density": {
+        "alignment": -0.14995527512886114,
+        "contribution": -0.10379399096993264
+      },
+      "shift_11_modality": {
+        "alignment": 0.28358657624911576,
+        "contribution": 0.19628907692044043
+      },
+      "shift_14_causality_invert": {
+        "alignment": 0.06629521402978807,
+        "contribution": 0.04588731433718808
+      },
+      "shift_12_agent_flip": {
+        "alignment": 0.0438028334826777,
+        "contribution": 0.03031884606294504
+      },
+      "shift_16_exemplification": {
+        "alignment": -0.19780449152743082,
+        "contribution": -0.136913607005605
+      },
+      "shift_15_contrast": {
+        "alignment": 0.03928253741805815,
+        "contribution": 0.027190049370002006
+      }
+    },
+    "all_rag_scores": {
+      "DOC_6": 0.6921663201293805,
+      "DOC_9": 0.5902855133064789,
+      "DOC_4": 0.5863217180314358,
+      "DOC_2": 0.5764094471002724,
+      "DOC_19": 0.5713946673804524
+    },
+    "all_fp_scores": {
+      "DOC_6": 0.7075721199916516,
+      "DOC_9": 0.6319841899823706,
+      "DOC_4": 0.5986222431230601,
+      "DOC_18": 0.5909253896173112,
+      "DOC_14": 0.5887681876555191
+    }
+  },
+  {
+    "query": "What are the differences between Layer 4 and Layer 7 load balancing?",
+    "target_doc": "DOC_7",
+    "rag_rank": 1,
+    "fp_rank": 1,
+    "rag_top_doc": "DOC_7",
+    "fp_top_doc": "DOC_7",
+    "rag_top_score": 0.658694219983096,
+    "fp_top_score": 0.6849891588791182,
+    "rag_gap": 0.07652732170321597,
+    "fp_gap": 0.05091283061516638,
+    "shift_details": {
+      "shift_1_entity": {
+        "alignment": 0.30031632622845184,
+        "contribution": 0.19781662825323906
+      },
+      "shift_5_passive": {
+        "alignment": -0.06588318172676277,
+        "contribution": -0.04339687099751457
+      },
+      "shift_2_abstraction": {
+        "alignment": 0.07433319167391103,
+        "contribution": 0.04896284370850079
+      },
+      "shift_6_negation": {
+        "alignment": 0.06353350591688967,
+        "contribution": 0.04184915312271705
+      },
+      "shift_3_certainty": {
+        "alignment": 0.31487668994352364,
+        "contribution": 0.20740745567320845
+      },
+      "shift_9_perspective": {
+        "alignment": -0.029531523176965318,
+        "contribution": -0.01945224362396389
+      },
+      "shift_7_density": {
+        "alignment": -0.007960713801508937,
+        "contribution": -0.005243676167993596
+      },
+      "shift_10_temporal": {
+        "alignment": -0.005844945090642029,
+        "contribution": -0.0038500315473244777
+      },
+      "shift_11_modality": {
+        "alignment": -0.31598941757298493,
+        "contribution": -0.2081404029311501
+      },
+      "shift_12_agent_flip": {
+        "alignment": -0.009056016402473067,
+        "contribution": -0.005965145660381119
+      },
+      "shift_14_causality_invert": {
+        "alignment": 0.04566203202921183,
+        "contribution": 0.030077316570324832
+      },
+      "shift_15_contrast": {
+        "alignment": 0.06039308548312101,
+        "contribution": 0.039780576334676826
+      },
+      "shift_16_exemplification": {
+        "alignment": -0.24279001013183796,
+        "contribution": -0.15992437634347897
+      }
+    },
+    "all_rag_scores": {
+      "DOC_7": 0.658694219983096,
+      "DOC_4": 0.58216689827988,
+      "DOC_10": 0.5815355821867673,
+      "DOC_11": 0.5792736251714022,
+      "DOC_14": 0.5782343967994144
+    },
+    "all_fp_scores": {
+      "DOC_7": 0.6849891588791182,
+      "DOC_10": 0.6340763282639518,
+      "DOC_4": 0.6073237233452831,
+      "DOC_13": 0.6024218533738898,
+      "DOC_12": 0.6014848025170145
+    }
+  },
+  {
+    "query": "How does weighted round-robin distribution handle servers with different capacities?",
+    "target_doc": "DOC_7",
+    "rag_rank": 1,
+    "fp_rank": 1,
+    "rag_top_doc": "DOC_7",
+    "fp_top_doc": "DOC_7",
+    "rag_top_score": 0.7271794176984736,
+    "fp_top_score": 0.8458047950783228,
+    "rag_gap": 0.14222944037761165,
+    "fp_gap": 0.18305125135624944,
+    "shift_details": {
+      "shift_5_passive": {
+        "alignment": 0.13686195653454492,
+        "contribution": 0.09952319785786418
+      },
+      "shift_3_certainty": {
+        "alignment": 0.09610968500119213,
+        "contribution": 0.06988898477435061
+      },
+      "shift_2_abstraction": {
+        "alignment": 0.08664886694516087,
+        "contribution": 0.0630092726094146
+      },
+      "shift_1_entity": {
+        "alignment": 0.2830175460952342,
+        "contribution": 0.20580453436798332
+      },
+      "shift_7_density": {
+        "alignment": -0.00760805510046652,
+        "contribution": -0.005532421077775147
+      },
+      "shift_9_perspective": {
+        "alignment": 0.2539035581819334,
+        "contribution": 0.18463344159030884
+      },
+      "shift_6_negation": {
+        "alignment": 0.2589234619943775,
+        "contribution": 0.18828381232154429
+      },
+      "shift_11_modality": {
+        "alignment": -0.07403457865413954,
+        "contribution": -0.053836421795269034
+      },
+      "shift_10_temporal": {
+        "alignment": 0.4505549299028216,
+        "contribution": 0.3276342715679104
+      },
+      "shift_12_agent_flip": {
+        "alignment": -0.012356880895425177,
+        "contribution": -0.008985669454104674
+      },
+      "shift_14_causality_invert": {
+        "alignment": 0.07879696970893293,
+        "contribution": 0.057299534549346116
+      },
+      "shift_15_contrast": {
+        "alignment": 0.14813021226526968,
+        "contribution": 0.1077172414986101
+      },
+      "shift_16_exemplification": {
+        "alignment": 0.13763878671639443,
+        "contribution": 0.10008809277715211
+      }
+    },
+    "all_rag_scores": {
+      "DOC_7": 0.7271794176984736,
+      "DOC_11": 0.584949977320862,
+      "DOC_9": 0.58417461742698,
+      "DOC_12": 0.5669878475059714,
+      "DOC_28": 0.5619716043134607
+    },
+    "all_fp_scores": {
+      "DOC_7": 0.8458047950783228,
+      "DOC_11": 0.6627535437220734,
+      "DOC_13": 0.6264369938774546,
+      "DOC_9": 0.6074768801892623,
+      "DOC_29": 0.5929709403515753
+    }
+  },
+  {
+    "query": "What are the trade-offs between synchronous and asynchronous database replication?",
+    "target_doc": "DOC_8",
+    "rag_rank": 1,
+    "fp_rank": 3,
+    "rag_top_doc": "DOC_8",
+    "fp_top_doc": "DOC_18",
+    "rag_top_score": 0.6712815393338298,
+    "fp_top_score": 0.7074753388501183,
+    "rag_gap": 0.04544295729330383,
+    "fp_gap": 0.0034267350066219393,
+    "shift_details": {
+      "shift_1_entity": {
+        "alignment": 0.10028858795120921,
+        "contribution": 0.06732187769750389
+      },
+      "shift_3_certainty": {
+        "alignment": 0.23503935146902227,
+        "contribution": 0.15777757765815034
+      },
+      "shift_2_abstraction": {
+        "alignment": 0.1911631698680811,
+        "contribution": 0.1283243069329799
+      },
+      "shift_6_negation": {
+        "alignment": 0.08677229865836507,
+        "contribution": 0.05824864221492212
+      },
+      "shift_7_density": {
+        "alignment": -0.08150211219048688,
+        "contribution": -0.05471086333018853
+      },
+      "shift_9_perspective": {
+        "alignment": -0.11083485015651245,
+        "contribution": -0.07440138882489805
+      },
+      "shift_5_passive": {
+        "alignment": 0.07811085456357983,
+        "contribution": 0.05243437469012077
+      },
+      "shift_10_temporal": {
+        "alignment": 0.18000881425591414,
+        "contribution": 0.1208365939273675
+      },
+      "shift_11_modality": {
+        "alignment": -0.26516912353598276,
+        "contribution": -0.178003137431037
+      },
+      "shift_14_causality_invert": {
+        "alignment": -0.033268847806526315,
+        "contribution": -0.022332763367427892
+      },
+      "shift_15_contrast": {
+        "alignment": 0.011408262733224976,
+        "contribution": 0.007658156168684027
+      },
+      "shift_16_exemplification": {
+        "alignment": 0.07037576531459216,
+        "contribution": 0.047241952072175776
+      },
+      "shift_12_agent_flip": {
+        "alignment": -0.03535777400665152,
+        "contribution": -0.02373502096260271
+      }
+    },
+    "all_rag_scores": {
+      "DOC_8": 0.6712815393338298,
+      "DOC_19": 0.625838582040526,
+      "DOC_21": 0.6246071745194453,
+      "DOC_11": 0.6078821299839543,
+      "DOC_4": 0.6067686859737151
+    },
+    "all_fp_scores": {
+      "DOC_18": 0.7074753388501183,
+      "DOC_13": 0.7040486038434963,
+      "DOC_8": 0.7037560556366309,
+      "DOC_11": 0.6769582703751564,
+      "DOC_19": 0.643118701435128
+    }
+  },
+  {
+    "query": "How do consensus algorithms like Raft manage automatic failover in distributed databases?",
+    "target_doc": "DOC_8",
+    "rag_rank": 3,
+    "fp_rank": 3,
+    "rag_top_doc": "DOC_13",
+    "fp_top_doc": "DOC_13",
+    "rag_top_score": 0.7709252628012069,
+    "fp_top_score": 0.9264571704337712,
+    "rag_gap": 0.11615955616957907,
+    "fp_gap": 0.22734480714927963,
+    "shift_details": {
+      "shift_2_abstraction": {
+        "alignment": 0.023000837469892677,
+        "contribution": 0.014657151103226794
+      },
+      "shift_1_entity": {
+        "alignment": -0.0036310881593614223,
+        "contribution": -0.0023138900003342507
+      },
+      "shift_3_certainty": {
+        "alignment": 0.33530496422893385,
+        "contribution": 0.2136711557915491
+      },
+      "shift_6_negation": {
+        "alignment": -0.07097402280685927,
+        "contribution": -0.0452277869467009
+      },
+      "shift_5_passive": {
+        "alignment": -0.20288301321457072,
+        "contribution": -0.1292860307741567
+      },
+      "shift_7_density": {
+        "alignment": -0.09108510517740445,
+        "contribution": -0.05804345826911978
+      },
+      "shift_9_perspective": {
+        "alignment": 0.25608427273779066,
+        "contribution": 0.16318822675873867
+      },
+      "shift_10_temporal": {
+        "alignment": 0.18000881425591414,
+        "contribution": 0.11470957933228376
+      },
+      "shift_11_modality": {
+        "alignment": 0.25530913738343447,
+        "contribution": 0.1626942762219757
+      },
+      "shift_12_agent_flip": {
+        "alignment": -0.05491740618663538,
+        "contribution": -0.034995800554150545
+      },
+      "shift_14_causality_invert": {
+        "alignment": 0.02635763899669205,
+        "contribution": 0.01679625352792083
+      },
+      "shift_15_contrast": {
+        "alignment": 0.04965364945734738,
+        "contribution": 0.03164150191816435
+      },
+      "shift_16_exemplification": {
+        "alignment": 0.05942904413248395,
+        "contribution": 0.03787081583052529
+      }
+    },
+    "all_rag_scores": {
+      "DOC_13": 0.7709252628012069,
+      "DOC_21": 0.6547657066316278,
+      "DOC_8": 0.6372442361028163,
+      "DOC_10": 0.6366668503760442,
+      "DOC_4": 0.6123177841748264
+    },
+    "all_fp_scores": {
+      "DOC_13": 0.9264571704337712,
+      "DOC_10": 0.6991123632844916,
+      "DOC_8": 0.6834968354510446,
+      "DOC_11": 0.6668787498234787,
+      "DOC_9": 0.6423780116515297
+    }
+  },
+  {
+    "query": "What is the difference between token bucket and leaky bucket rate limiting algorithms?",
+    "target_doc": "DOC_9",
+    "rag_rank": 1,
+    "fp_rank": 1,
+    "rag_top_doc": "DOC_9",
+    "fp_top_doc": "DOC_9",
+    "rag_top_score": 0.7643369654648298,
+    "fp_top_score": 0.7783732394768809,
+    "rag_gap": 0.14516561936359607,
+    "fp_gap": 0.09279414459657243,
+    "shift_details": {
+      "shift_5_passive": {
+        "alignment": 0.1572961184469693,
+        "contribution": 0.12022723785315295
+      },
+      "shift_1_entity": {
+        "alignment": 0.05061083940404495,
+        "contribution": 0.03868373540971555
+      },
+      "shift_2_abstraction": {
+        "alignment": -0.014030847389526774,
+        "contribution": -0.010724295316611024
+      },
+      "shift_3_certainty": {
+        "alignment": -0.05867920042068898,
+        "contribution": -0.04485068198545197
+      },
+      "shift_6_negation": {
+        "alignment": -0.11060324351184658,
+        "contribution": -0.08453814751641243
+      },
+      "shift_7_density": {
+        "alignment": 0.022611664976394184,
+        "contribution": 0.017282931392164504
+      },
+      "shift_10_temporal": {
+        "alignment": -0.010657300319873247,
+        "contribution": -0.008145768586539278
+      },
+      "shift_11_modality": {
+        "alignment": 0.2545493984190602,
+        "contribution": 0.19456151474852243
+      },
+      "shift_9_perspective": {
+        "alignment": -0.18246053126137723,
+        "contribution": -0.13946132878142178
+      },
+      "shift_12_agent_flip": {
+        "alignment": -0.031714097272044404,
+        "contribution": -0.024240256871370856
+      },
+      "shift_14_causality_invert": {
+        "alignment": 0.1480608861084133,
+        "contribution": 0.1131684083921384
+      },
+      "shift_15_contrast": {
+        "alignment": -0.05306296187867529,
+        "contribution": -0.040557983260922616
+      },
+      "shift_16_exemplification": {
+        "alignment": 0.38203570883521726,
+        "contribution": 0.2920040143903152
+      }
+    },
+    "all_rag_scores": {
+      "DOC_9": 0.7643369654648298,
+      "DOC_11": 0.6191713461012337,
+      "DOC_13": 0.6158636683231007,
+      "DOC_1": 0.601749487315421,
+      "DOC_4": 0.5974220063150947
+    },
+    "all_fp_scores": {
+      "DOC_9": 0.7783732394768809,
+      "DOC_13": 0.6855790948803084,
+      "DOC_1": 0.6586166181299986,
+      "DOC_11": 0.6432708094614504,
+      "DOC_10": 0.620109006783572
+    }
+  },
+  {
+    "query": "How should clients implement backoff strategies when hitting HTTP 429 status codes?",
+    "target_doc": "DOC_9",
+    "rag_rank": 3,
+    "fp_rank": 3,
+    "rag_top_doc": "DOC_14",
+    "fp_top_doc": "DOC_10",
+    "rag_top_score": 0.6741355860240287,
+    "fp_top_score": 0.7426448311639856,
+    "rag_gap": 0.0012967525907451316,
+    "fp_gap": 0.05496320263085641,
+    "shift_details": {
+      "shift_2_abstraction": {
+        "alignment": 0.0563248951458723,
+        "contribution": 0.03705837885496876
+      },
+      "shift_3_certainty": {
+        "alignment": 0.05599283261674414,
+        "contribution": 0.03683990176812997
+      },
+      "shift_1_entity": {
+        "alignment": 0.10668612854185368,
+        "contribution": 0.0701930284971626
+      },
+      "shift_5_passive": {
+        "alignment": 0.1221473193703112,
+        "contribution": 0.08036555817140445
+      },
+      "shift_7_density": {
+        "alignment": 0.07880029497823192,
+        "contribution": 0.051845834379695505
+      },
+      "shift_6_negation": {
+        "alignment": -0.0017726724599799717,
+        "contribution": -0.001166311405242295
+      },
+      "shift_10_temporal": {
+        "alignment": 0.10559035165329775,
+        "contribution": 0.06947207349189437
+      },
+      "shift_9_perspective": {
+        "alignment": -0.13795324559951733,
+        "contribution": -0.09076490291654125
+      },
+      "shift_11_modality": {
+        "alignment": 0.0785043110036963,
+        "contribution": 0.05165109480255234
+      },
+      "shift_12_agent_flip": {
+        "alignment": -0.26696343472795464,
+        "contribution": -0.1756458148559426
+      },
+      "shift_14_causality_invert": {
+        "alignment": 0.2630310825985996,
+        "contribution": 0.1730585646777865
+      },
+      "shift_15_contrast": {
+        "alignment": 0.009696742364971263,
+        "contribution": 0.006379870770988288
+      },
+      "shift_16_exemplification": {
+        "alignment": 0.14182419451306433,
+        "contribution": 0.09331175348758873
+      }
+    },
+    "all_rag_scores": {
+      "DOC_14": 0.6741355860240287,
+      "DOC_10": 0.6728388334332835,
+      "DOC_9": 0.6579395977390388,
+      "DOC_27": 0.6123622245540478,
+      "DOC_16": 0.6062191219997912
+    },
+    "all_fp_scores": {
+      "DOC_10": 0.7426448311639856,
+      "DOC_13": 0.6876816285331292,
+      "DOC_9": 0.6849317635047659,
+      "DOC_14": 0.6785055097587039,
+      "DOC_5": 0.6420310998042401
+    }
+  },
+  {
+    "query": "How does the circuit breaker pattern protect services from cascading failures?",
+    "target_doc": "DOC_10",
+    "rag_rank": 1,
+    "fp_rank": 1,
+    "rag_top_doc": "DOC_10",
+    "fp_top_doc": "DOC_10",
+    "rag_top_score": 0.6715024356773228,
+    "fp_top_score": 0.7785855331729974,
+    "rag_gap": 0.03875181084660362,
+    "fp_gap": 0.05845557057144435,
+    "shift_details": {
+      "shift_3_certainty": {
+        "alignment": 0.17120318308428806,
+        "contribution": 0.11496335443681006
+      },
+      "shift_2_abstraction": {
+        "alignment": 0.04441207595397282,
+        "contribution": 0.02982281717657901
+      },
+      "shift_5_passive": {
+        "alignment": -0.04823751619313258,
+        "contribution": -0.03239160961471283
+      },
+      "shift_1_entity": {
+        "alignment": 0.003064979094476183,
+        "contribution": 0.0020581409272408323
+      },
+      "shift_6_negation": {
+        "alignment": 0.2918136943977229,
+        "contribution": 0.19595360655206887
+      },
+      "shift_9_perspective": {
+        "alignment": 0.013009755427876853,
+        "contribution": 0.008736082457385578
+      },
+      "shift_7_density": {
+        "alignment": 0.25141062929452335,
+        "contribution": 0.16882284992644092
+      },
+      "shift_10_temporal": {
+        "alignment": 0.565341492255674,
+        "contribution": 0.3796281890391374
+      },
+      "shift_11_modality": {
+        "alignment": 0.031020249307942126,
+        "contribution": 0.020830172965600927
+      },
+      "shift_14_causality_invert": {
+        "alignment": 0.04519907380568109,
+        "contribution": 0.030351288150873932
+      },
+      "shift_15_contrast": {
+        "alignment": 0.17807632369438717,
+        "contribution": 0.11957868509724434
+      },
+      "shift_12_agent_flip": {
+        "alignment": 0.014078230795217618,
+        "contribution": 0.009453566269016124
+      },
+      "shift_16_exemplification": {
+        "alignment": 0.23469182006530764,
+        "contribution": 0.15759612880739807
+      }
+    },
+    "all_rag_scores": {
+      "DOC_10": 0.6715024356773228,
+      "DOC_15": 0.6327506248307192,
+      "DOC_27": 0.6059732861074201,
+      "DOC_3": 0.592985220534577,
+      "DOC_13": 0.5916352158956263
+    },
+    "all_fp_scores": {
+      "DOC_10": 0.7785855331729974,
+      "DOC_15": 0.720129962601553,
+      "DOC_13": 0.668601389175063,
+      "DOC_3": 0.6547598576759167,
+      "DOC_7": 0.6494285895498314
+    }
+  },
+  {
+    "query": "What is exponential backoff with jitter and why is it used for network retries?",
+    "target_doc": "DOC_10",
+    "rag_rank": 1,
+    "fp_rank": 1,
+    "rag_top_doc": "DOC_10",
+    "fp_top_doc": "DOC_10",
+    "rag_top_score": 0.6528304065055406,
+    "fp_top_score": 0.7117730008010725,
+    "rag_gap": 0.04808065399303896,
+    "fp_gap": 0.08322278141575434,
+    "shift_details": {
+      "shift_1_entity": {
+        "alignment": 0.014460373105462557,
+        "contribution": 0.009440171252660908
+      },
+      "shift_2_abstraction": {
+        "alignment": 0.020249375129521588,
+        "contribution": 0.013219407797288762
+      },
+      "shift_5_passive": {
+        "alignment": 0.07328492336057593,
+        "contribution": 0.04784262630821217
+      },
+      "shift_3_certainty": {
+        "alignment": 0.21151408433165172,
+        "contribution": 0.1380828256558794
+      },
+      "shift_7_density": {
+        "alignment": 0.15725135346045727,
+        "contribution": 0.10265846500313676
+      },
+      "shift_9_perspective": {
+        "alignment": 0.047361612098746564,
+        "contribution": 0.03091910047918245
+      },
+      "shift_6_negation": {
+        "alignment": 0.25154863961332624,
+        "contribution": 0.1642186006546835
+      },
+      "shift_10_temporal": {
+        "alignment": 0.04112422558904082,
+        "contribution": 0.026847144908519076
+      },
+      "shift_11_modality": {
+        "alignment": -0.22185296804447252,
+        "contribution": -0.1448323633129337
+      },
+      "shift_12_agent_flip": {
+        "alignment": 0.05241687855387872,
+        "contribution": 0.034219332134080196
+      },
+      "shift_14_causality_invert": {
+        "alignment": 0.12134918386249682,
+        "contribution": 0.07922043703006938
+      },
+      "shift_15_contrast": {
+        "alignment": -0.05447488411970615,
+        "contribution": -0.03556286074420998
+      },
+      "shift_16_exemplification": {
+        "alignment": 0.3613472100181634,
+        "contribution": 0.23589844600580057
+      }
+    },
+    "all_rag_scores": {
+      "DOC_10": 0.6528304065055406,
+      "DOC_9": 0.6047497525125016,
+      "DOC_16": 0.6025822613279054,
+      "DOC_7": 0.5990499131524316,
+      "DOC_14": 0.5985791632416039
+    },
+    "all_fp_scores": {
+      "DOC_10": 0.7117730008010725,
+      "DOC_11": 0.6285502193853182,
+      "DOC_7": 0.6244505459715394,
+      "DOC_16": 0.6230816520784603,
+      "DOC_9": 0.6223820825405928
+    }
+  }
+]
